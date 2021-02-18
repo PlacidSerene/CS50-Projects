@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main style="margin-left: 30px">
+      <div class="url">
+        <a href="index.html">Google Search</a>
+      </div>
+
+      <h1 id="advSearch">Advanced Search</h1>
+      <hr />
+
+      <form action="https://google.com/search">
+        <table>
+          <tr>
+            <td><span>Find pages with ...</span></td>
+            <td><span></span></td>
+            <td>
+              <span style="font-weight: bold"
+                >To do this in the search box</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="first">all these words:</label>
+            </td>
+            <td>
+              <input type="text" name="as_q" id="first" />
+            </td>
+            <td>
+              <span class="small-text"
+                >Type the important words: tricolor rat terrier</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="second">this exact word or phrase:</label>
+            </td>
+            <td>
+              <input type="text" name="as_epq" id="second" />
+            </td>
+            <td>
+              <span class="small-text"
+                >Put exact words in quotes: "rat terrier"</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="third">any of these words:</label>
+            </td>
+            <td>
+              <input type="text" name="as_oq" id="third" />
+            </td>
+            <td>
+              <span class="small-text"
+                >Type OR between all the words you want: miniature OR
+                standard</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="fourth">none of these words:</label>
+            </td>
+            <td>
+              <input type="text" name="as_eq" id="fourth" />
+            </td>
+            <td>
+              <span class="small-text"
+                >Put a minus sign just before words you don't want: -rodent,
+                -"Jack Russell"
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td id="submit-button">
+              <input type="submit" value="Google Search" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
